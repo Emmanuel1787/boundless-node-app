@@ -1,0 +1,15 @@
+[
+    {
+      "name": "ecs-task-family-workshop",
+      "image": "973510305636.dkr.ecr.us-east-1.amazonaws.com/ecr-workshop:latest",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 3000,
+          "hostPort": 3000
+        }
+      ],
+      "memory": 512,
+      "cpu": 256
+    }
+]
